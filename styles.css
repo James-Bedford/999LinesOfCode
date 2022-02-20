@@ -8,8 +8,50 @@ h1 {
 
 .friend {
   background-color: lightblue;
+  justify-content: center;
 }
 
 h3 {
   text-transform: uppercase;
+  text-align: center;
+}
+
+#singDiv {
+  display: flex;
+  background-color: rgb(157, 163, 157);
+  width: 100%;
+  height: 3rem;
+  margin: 0 auto;
+  border: 1px solid black;
+  justify-content: center;
+}
+
+.buttonContainer {
+  display: flex;
+  background-color: rgb(157, 163, 157);
+  width: 100%;
+  height: 3rem;
+  border: 1px solid black;
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#singButton {
+  display: flex;
+  background-color: rgb(160, 167, 160);
+  width: 5rem;
+  height: 80%;
+  font-size: 1.5rem;
+  font-weight: normal;
+  cursor: pointer;
+  justify-content: center;
+  margin: 5px 10px 10px 10px;
+}
+p {
+  font-style: Times New Roman, Times, serif;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
 }

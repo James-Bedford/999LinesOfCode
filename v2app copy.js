@@ -48,6 +48,10 @@ singButton.addEventListener(`click`, function () {
         );
         paragraph.appendChild(songLine);
         friendDiv.appendChild(paragraph);
+
+        /* console.log(
+          `${j} line of code in the file, ${j} line of code; ${name} strikes one out, clears it all out, no more lines of code in the file`
+        );  */
       }
     }
     i++;
